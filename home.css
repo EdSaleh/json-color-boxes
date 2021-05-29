@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+div.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.grid {
+    display: inline-grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 100px;
+}
+  
+div.grid div.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
